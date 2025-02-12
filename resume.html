@@ -1,182 +1,98 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<style>
-		.btn {
-			background-color: DodgerBlue;
-			border: none;
-			color: white;
-			padding: 12px 16px;
-			font-size: 16px;
-			cursor: pointer;
-		}
-
-		/* Darker background on mouse-over */
-		.btn:hover {
-			background-color: RoyalBlue;
-		}
-	</style>
-	<title>Resume of Ranoshis Das</title>
-	
-	<link rel="stylesheet" href="https://ranoshisdas.github.io/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Ranoshis Das</title>
+    <link rel="stylesheet" href="CSS/resume.css">
 </head>
+
 <body>
-	<div class="container">
-		<a href="index.html"><button class="btn"><i class="fa fa-home"></i> Home</button></a>
-<!--		<button class="btn"><i class="fa fa-bars"></i> Menu</button>-->
-		<a href="index.html"><button class="btn"><i class="fa fa-close"></i> Close</button></a>
-		<a href="resume.html"><button class="btn"><i class="fa fa-folder"></i> Resume</button></a>
-	<header>
-		<h1 id="name">Ranoshis Das
-			<img src="pic.jpg" height="100px" width="100px" alt="pic of ranoshis das" align="right">
-		</h1>
-		<div id="designation">
-		
-			<span class="title">Student</span>
-			<span class="organization">Brainware University</span>
-		
-		</div>
-		
-		<div class="contact">
-			<div class="email">ranoshisdas@gmail.com</div>
-		</div>
+<div id="container">
+    <div class="title">Resume</div>
+    <header>
+        <img src="Data/pic.jpg" alt="Image of Ranoshis Das" width="150">
+        <div id="name">
+            <h1>Ranoshis Das</h1>
+            <p>B.Tech CSE (DS) Student</p>
+            <p class="contact-links">
+                <a href="mailto:ranoshisdas@gmail.com">ranoshisdas@gmail.com</a> |
+                <a href="https://www.linkedin.com/in/ranoshis-das/">LinkedIn</a> |
+                <a href="https://github.com/ranoshisDas/">GitHub</a>
+            </p>
+        </div>
+    </header>
 
+    <div id="Career">
+        <h2>Career Objective</h2>
+        <p>Highly motivated B.Tech CSE Data Science student at Brainware University (2022-2026) seeking a data science internship...</p>
+    </div>
 
-		
-	</header>
-	
-	<div class="content" role=main>
-	
-		<section id="objective">
-			<h2 class="title">Objective</h2>
-			<div class="description">
-				<p>
-					Highly motivated B.Tech CSE Data Science student at Brainware University (2022-2026) seeking a data science internship to leverage my programming skills (Java, Python) and interest in data analysis to contribute to real-world projects. Eager to gain practical experience while applying my academic knowledge in machine learning, data manipulation, and problem-solving.
-				</p>
-			</div> <!-- end description -->
-		</section>
-		
-		
-		<section id="Education">
-			<h2 class="title">Education</h2>
-			<div class="description">
-				
-				<table>
-					<thead>
-						<td>Duration</td>
-						<td>Qualification</td>
-						<td>Institute/School</td>
-						<td>Result</td>
-					</thead>
-					
-					<!-- edit this/ row-wise-->
-					<tr>
-						<td>2020</td>
-						<td>High School</td>
-						<td>Patiram High School</td>
-						<td>85%</td>
-					</tr>
-					
-					<tr> <!-- row2 -->
-						<td>2022</td>
-						<td>Intermediate(science)</td>
-						<td>Patiram High School</td>
-						<td>60%</td>
-					</tr>					
-					
-				</table>
-			
-			
-			</div> <!-- end description -->
-		</section>
-			
-		<section id="projects">
-			<h2 class="title">Projects Undertaken</h2>
-			<div class="description">
-				
-				<!-- Project 1 -->
-				<section class="project">
-					<h3 class="title">Calculator App</h3>
-					<div class="meta">
-						<span class="field">App Development</span> <span class="date">Apr 2024 - Aug 2024 </span>
-					</div>
-					<p class="description"> To develop a robust and user-friendly calculator application capable of performing various mathematical operations. </p>
-				</section> <!-- end project description -->
-				
-				<!-- project 2 -->
-				<section class="project">
-					<h3 class="title">Geolocation based attendance system</h3>
-					<div class="meta">
-						<span class="field">App Development</span> <span class="date">Jul 2024 - Now</span>
-					</div>
-					<p class="description"> A geolocation based application for GAIL Pvt. Ltd. as Smart India Hackathon 2024 problem statement.
-						Total 6 members were in our team, I worked as an app developer.
-						This app track your current location and using geofencing and face recognition as biometric to mark check in the office.
-						And check out marked when you go out of the office area & also there is a manual option for the offside working station.
-						It also calculates the effective working Hours using the check in and check out data. we make all data is temper proved so no data loss is here.
-					</p>
-				</section> <!-- end project description -->
-			</div>
-		</section>
-	
+    <div id="Education">
+        <h2>Academic Qualification</h2>
+        <table>
+            <tr>
+                <th>Course</th>
+                <th>Institution</th>
+                <th>Duration</th>
+                <th>Board</th>
+                <th>CGPA / Marks</th>
+            </tr>
+            <tr>
+                <td>B.Tech CSE (DS)</td>
+                <td>Brainware University</td>
+                <td>2022-2026</td>
+                <td>Brainware University</td>
+                <td>8.0/10</td>
+            </tr>
+            <tr>
+                <td>Higher Secondary</td>
+                <td rowspan="2">Patiram High School</td>
+                <td>2020-2022</td>
+                <td>WBCHSE</td>
+                <td>60%</td>
+            </tr>
+            <tr>
+                <td>Secondary</td>
+                <td>2019-2020</td>
+                <td>WBBSE</td>
+                <td>85%</td>
+            </tr>
+        </table>
+    </div>
 
-		<!-- Training/ seminars -->
+    <div id="Skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming: Java, Python, C, C++</li>
+            <li>Database: MySQL, MongoDB</li>
+            <li>OS: Windows, Linux, Mac</li>
+            <li>Web Development: HTML, CSS, JavaScript, PHP</li>
+            <li>Web Scraping: BeautifulSoup, Selenium, Scrapy</li>
+            <li>Android Development: Java, XML, Firebase, AdMob</li>
+        </ul>
+    </div>
 
+    <div id="Projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="https://play.google.com/store/apps/details?id=com.ranoshisdas.app.calculator">Calculator App (Android)</a> - Developed a feature-rich calculator app using Java, XML, and AdMob.</li>
+        </ul>
+    </div>
 
-		<section id="achievements">
-			<h2 class="title">Achievements</h2>
-			<div class="description">
-				<section class="project">
-					<h3 class="title">NCC "A" certificate</h3>
-					<div class="meta">
-						<span class="field">11 Bengal Battalion,Malda,West Bengal </span> <span class="date">Apr 2017 - Apr 2019 </span>
-					</div>
-					<p>Issued by 11 Bengal Battalion,Malda,West Bengal on apr 2019</p>
-				</section>
-			</div>
-		</section>
+    <div id="Certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>NCC "A" Certification</li>
+            <li>DITA Certification</li>
+            <li>Python Certification</li>
+        </ul>
+    </div>
 
-		
-		
-		
-		<!-- Technical Skills -->
-		
-		
-		<!-- Extra-Curricular Activities -->
-		
-		
-		<!-- Personal Informations -->
-		
-		
-		<!-- References -->
-		
-		
-		
-		<!-- Declarations -->
-
-	
-		<!-- signatory -->
-	
-	
-	
-	
-	</div> <!-- end main content -->
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	</div> <!-- end container -->
-	
+    <blockquote>
+        I hereby declare that all the information provided above is true and correct to the best of my knowledge.
+    </blockquote>
+</div>
 </body>
 </html>
