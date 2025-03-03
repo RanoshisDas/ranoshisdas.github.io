@@ -78,7 +78,15 @@ blockquote {
     color: #d35400;
     text-decoration: underline;
 }
-
+#Certifications{
+    font-weight: bold;
+}
+#Certifications span{
+    font-weight: normal;
+}
+#Experience span{
+    color: gray;
+}
 /* Contact links styling */
 .contact-links {
     font-size: 18px;
@@ -86,12 +94,12 @@ blockquote {
 }
 
 .contact-links a:hover {
-    color: #000;
+    color: #d35400;
     text-decoration: none;
 }
 
 .contact-links a {
-    color: #000;
+    color: #0d95cf;
     text-decoration: none;
     margin: 0 5px;
 }
